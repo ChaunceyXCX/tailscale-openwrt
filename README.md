@@ -7,7 +7,7 @@
 ### 0x00 安装
 
 ```
-wget -O- https://raw.githubusercontent.com/ChaunceyXCX/tailscale-openwrt.git/main/install.sh | sh
+wget -O- https://raw.githubusercontent.com/ChaunceyXCX/tailscale-openwrt/main/install.sh | sh
 ```
 
 ### 0x01 卸载

@@ -17,7 +17,7 @@ jobs:
         
     - name: check_release_if_exist
       run: |
-        code=`curl -I -m 10 -o /dev/null -s -w %{http_code} 'https://codeload.github.com/cyz0105/tailscale-openwrt/zip/refs/tags/${{ env.latest_version }}'`
+        code=`curl -I -m 10 -o /dev/null -s -w %{http_code} 'https://codeload.github.com/ChaunceyXCX/tailscale-openwrt/zip/refs/tags/${{ env.latest_version }}'`
         echo "code=$code"  >> $GITHUB_ENV
         echo $code
         
